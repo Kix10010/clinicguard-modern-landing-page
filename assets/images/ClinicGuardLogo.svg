@@ -1,0 +1,144 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Shield background -->
+  <path
+    d="M200 20C200 20 245 25 260 30C265 32 268 37 268 42V90C268 125 245 155 200 180C155 155 132 125 132 90V42C132 37 135 32 140 30C155 25 200 20 200 20Z"
+    fill="#60A5FA"
+  />
+  
+  <!-- Shield outline -->
+  <path
+    d="M200 20C200 20 245 25 260 30C265 32 268 37 268 42V90C268 125 245 155 200 180C155 155 132 125 132 90V42C132 37 135 32 140 30C155 25 200 20 200 20Z"
+    stroke="#2563EB"
+    stroke-width="3"
+    fill="none"
+  />
+  
+  <!-- Clipboard/Document background -->
+  <rect
+    x="165"
+    y="55"
+    width="70"
+    height="85"
+    rx="4"
+    fill="white"
+    opacity="0.95"
+  />
+  
+  <!-- Clipboard top clip -->
+  <rect
+    x="185"
+    y="50"
+    width="30"
+    height="8"
+    rx="2"
+    fill="#E0E0E0"
+  />
+  <rect
+    x="188"
+    y="52"
+    width="24"
+    height="6"
+    rx="1"
+    fill="white"
+  />
+  
+  <!-- Red Medical Cross - Center of clipboard -->
+  <g>
+    <rect
+      x="193"
+      y="65"
+      width="14"
+      height="65"
+      rx="2"
+      fill="#DC2626"
+    />
+    <rect
+      x="175"
+      y="90"
+      width="50"
+      height="14"
+      rx="2"
+      fill="#DC2626"
+    />
+  </g>
+  
+  <!-- Checkmark -->
+  <g transform="translate(205, 110)">
+    <circle
+      cx="15"
+      cy="15"
+      r="13"
+      fill="#00CC66"
+    />
+    <path
+      d="M10 15L14 19L21 11"
+      stroke="white"
+      stroke-width="3"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      fill="none"
+    />
+  </g>
+  
+  <!-- C Initial - Inside shield, left of clipboard -->
+  <text
+    x="150"
+    y="100"
+    font-family="system-ui, -apple-system, sans-serif"
+    font-size="38"
+    font-weight="700"
+    fill="#1e3a8a"
+    text-anchor="middle"
+    dominant-baseline="middle"
+  >
+    C
+  </text>
+  
+  <!-- G Initial - Inside shield, right of clipboard -->
+  <text
+    x="250"
+    y="100"
+    font-family="system-ui, -apple-system, sans-serif"
+    font-size="38"
+    font-weight="700"
+    fill="#1e3a8a"
+    text-anchor="middle"
+    dominant-baseline="middle"
+  >
+    G
+  </text>
+  
+  <!-- Company Name -->
+  <text
+    x="200"
+    y="220"
+    font-family="system-ui, -apple-system, sans-serif"
+    font-size="48"
+    font-weight="700"
+    text-anchor="middle"
+    dominant-baseline="middle"
+  >
+    <tspan fill="#0066CC">Clinic</tspan><tspan fill="#003D7A">Guard</tspan>
+  </text>
+  
+  <!-- Tagline with underline -->
+  <text
+    x="200"
+    y="250"
+    font-family="system-ui, -apple-system, sans-serif"
+    font-size="18"
+    fill="#1e293b"
+    text-anchor="middle"
+    dominant-baseline="middle"
+  >
+    Compliance made simple for medical clinics
+  </text>
+  <line
+    x1="65"
+    y1="255"
+    x2="335"
+    y2="255"
+    stroke="#1e293b"
+    stroke-width="2"
+  />
+</svg>
