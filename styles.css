@@ -84,6 +84,7 @@ img {
     font-weight: 700;
     border: none;
     cursor: pointer;
+    font-family: inherit;
  }
 
  /* 8. Basic section spacing */
