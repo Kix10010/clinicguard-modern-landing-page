@@ -1,0 +1,105 @@
+/* ===== PHASE 1: FOUNDATION ===== */
+
+/* 1. Box model reset */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* 2. Base page setup */
+body {
+    margin: 0;
+    font-family: Roboto, sans-serif;
+    color: #1f2937;
+    background-color: #ffffff;
+}
+
+/* 3. Reusable layout container */
+.container {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+/* 4. Typography defaults */
+h1,
+h2,
+h3,
+p {
+    margin-top: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+/* 5. Shared TOP-inspired section colors */
+.dark {
+    background: #1f2937;
+    color: #F9FAF8;
+}
+
+.info {
+    background-color: #ffffff;
+}
+
+.quote {
+    background-color: #e5e7eb;
+}
+
+/* 6. Logo alignment */
+.logo {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #F9FAF8;
+}
+
+.logo img {
+    display: block;
+}
+ /* 7. Basic button style */
+ .cta {
+    display: inline-block;
+    background-color: #3882f6;
+    color: #F9FAF8;
+    padding: 8px 28px;
+    border-radius: 8px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+ }
+
+ /* 8. Basic section spacing */
+ header {
+    padding: 16px 0;
+ }
+
+ .hero,
+ #features,
+ #testimonials,
+ #pricing,
+ #signup
+ #contact {
+    padding: 64px 0;
+ }
+
+ footer {
+    padding: 32px 0;
+ }
