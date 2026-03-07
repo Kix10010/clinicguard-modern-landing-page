@@ -183,3 +183,31 @@
   color: #4b5563;
   line-height: 1.6;
 }
+
+.cta-section {
+  padding: 100px 0;
+  text-align: center;
+  background-color: #f8fbff;
+  color: #1f2937;
+}
+
+.cta-container {
+  display: flex;
+  justify-content: center;
+}
+
+.cta-content {
+  max-width: 650px;
+}
+
+.cta-section .section-text {
+  margin: 0 auto;
+  line-height: 1.6;
+  color: #4b5563;
+  max-width: 650px;
+}
+
+.cta-section .section-title {
+  color: #111827;
+  margin-bottom: 16px;
+}
